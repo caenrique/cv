@@ -31,12 +31,41 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Build site and pdf
+        run: make site
+
+      - name: Setup output folder
+        run: |
+          mkdir output
+          cp resume-stylesheet.css output/resume-stylesheet.css
+          cp resume.md output/${{ github.actor }}-resume.md
+
+      - name: Install pandoc
+        run: |
+          wget https://github.com/jgm/pandoc/releases/download/3.0.1/pandoc-3.0.1-1-amd64.deb
+          wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+          sudo apt install ./pandoc-3.0.1-1-amd64.deb
+          sudo apt install ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+
+      - name: Build pdf
+        with:
+          path: 'output'
+        run: make pdf_from_html
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: "${{ github.actor }}'s Resume"
+          path: 'output'
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: 'docs'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
