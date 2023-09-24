@@ -18,7 +18,7 @@ author:
 - Cesar Enrique Ramirez
 subject: 'CV'
 ---
-###### [[example.com](https://example.com)] . [[github](https://github.com/caenrique)] . [[caenrique93@gmail.com](mailto:caenrique93@gmail.com?subject=Job%20Offer)] . [+34 684 315 863]
+###### [[caenrique.github.io/cv](https://caenrique.github.io/cv/)] . [[github](https://github.com/caenrique)] . [[caenrique93@gmail.com](mailto:caenrique93@gmail.com?subject=Job%20Offer)] . [+34 684 315 863]
 
 ### Software Engineer passionate about functional programming, high throughput backend development and tooling. I use Scala as my main language and really enjoy working with the Typelevel ecosystem!
 
