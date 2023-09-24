@@ -49,9 +49,9 @@ jobs:
           sudo apt install ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
       - name: Build pdf
-        with:
-          path: 'output'
-        run: make pdf_from_html
+        run: |
+          make pdf_from_html
+          cp resume.pdf output/resume.pdf
 
       - uses: actions/upload-artifact@master
         with:
