@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Cesar Enrique Ramirez" />
+  <meta name="keywords" content="Scala, Functional
+Programing, FP, Backend, Data Engineer, AWS, Cats, Cats-Effect" />
+  <meta name="description" content="CV of Cesar Enrique Ramirez" />
+  <title>Cesar Enrique Ramirez CV</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="resume-stylesheet.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Cesar Enrique Ramirez CV</h1>
+<p class="author">Cesar Enrique Ramirez</p>
+</header>
+<h6
+id="example.com-.-github-.-caenrique93gmail.com-.-34-684-315-863">[<a
+href="https://example.com">example.com</a>] . [<a
+href="https://github.com/caenrique">github</a>] . [<a
+href="mailto:caenrique93@gmail.com?subject=Job%20Offer">caenrique93@gmail.com</a>]
+. [+34 684 315 863]</h6>
+<h3
+id="software-engineer-passionate-about-functional-programming-high-throughput-backend-development-and-tooling.-i-use-scala-as-my-main-language-and-really-enjoy-working-with-the-typelevel-ecosystem">Software
+Engineer passionate about functional programming, high throughput
+backend development and tooling. I use Scala as my main language and
+really enjoy working with the Typelevel ecosystem!</h3>
+<h2 id="skills">Skills</h2>
+<p><code>functional programming</code> <code>cats-effect</code>
+<code>system architecture &amp; design</code>
+<code>stream processing</code> <code>load/stress testing</code>
+<code>distributed tracing/logging</code> <code>containers</code>
+<code>project management</code></p>
+<p><strong>Programming</strong>: Scala, Typscript, Lua, Python, Java
+<strong>Databases</strong>: DynamoDb, Postgres, MySQL, Redis, Cassandra
+<strong>Processing Engines</strong>: Kafka, Spark, Flink, Fs2, Akka
+Streams <strong>DevOps</strong>: Github Actions, Kubernetes, AWS CDK,
+Docker</p>
+<h2 id="experience">Experience</h2>
+<h3 id="senior-software-engineer-xebia-functional">Senior Software
+Engineer, Xebia Functional</h3>
+<p>September 2022 - Now, Remote, Spain</p>
+<p>As part of Xebia functional I worked on multiple projects as a
+consultant for clients in a variety of sectors, always with the hightest
+standars regarding quality and functional programming best
+practices.</p>
+<h4 id="siriusxm">SiriusXm</h4>
+<p>In this client I was part of a team developing a new product from the
+ground up that dealt with playback of media content and metadata for
+on-demand and live streaming</p>
+<ul>
+<li>Use gatling to setup load test and conduct test runs to analize the
+service performance. Using the analisis of load tests we were able to
+identify regresions and empirically find the optimal infrastructure
+configuration for the expected load of our service.</li>
+<li>Design and implement an ingestion pipeline following an event
+sourcing pattern based on Kinesis, Lambda and DynamoDb</li>
+<li>Design and implement an internal library to encapsulate all the data
+access concerns and provide different functionality to the team
+microservices accessing data in DynamoDb</li>
+<li>Champion a strategy to keep the ingestion data pipeline with 100%
+uptime when breaking changes were introduced</li>
+<li>Implement multitud of workflows in Gihub actions</li>
+<li>Optimise tracing and logging using functional libraries and
+DataDog</li>
+</ul>
+<p><strong>Technologies used:</strong> Scala, Cats-effect, Http4s,
+Smithy, DynamoDb, Dynosaur, Fargate, Kinesis, Lambda, Github Actions,
+DataDog, LocalStack</p>
+<h4 id="wejo">Wejo</h4>
+<p>In this project I was involved in a team working on processing
+vehicle data in real time. During this time I was able to kickstart a
+refactoring of AVRO schemas, from defining them as JSON, to deriving
+them from scala case classes. Some of the tasks involved:</p>
+<ul>
+<li>Introduce Vulcan to derive avro schemas from case classes</li>
+<li>Move avro schemas to its own repository</li>
+<li>Implement semantic versioning</li>
+<li>Refactor other services to use the new models</li>
+</ul>
+<p>In general, these changes had a great impact in terms of boilerate
+reduction and simplification</p>
+<p><strong>Technologies used:</strong> Scala, Kafka, Kafka Streams, FS2,
+Cats Effect, Http4s, Avro</p>
+<h3 id="data-engineer-new-work">Data Engineer, New Work</h3>
+<p>October 2020 - September 2022, Remote, Spain</p>
+<p>I was part of the Data Assets Team within the Data Science
+department. I was responsible for the creation, operation and
+maintenance of different batch and streaming pipelines, as well as data
+modeling and microservices to provide access to data and different
+services on top of that data. Some of the tasks are:</p>
+<ul>
+<li>Build streaming pipelines based on Kafka for natural language
+processing</li>
+<li>create REST APIs using Play framework and internal libraries based
+on Typeclases</li>
+<li>develop data platform components for Data Validation and
+reporting</li>
+<li>work with embedding vectors storage creation and serving with KNN
+indexes</li>
+<li>Batch pipelines with Spark and Hive</li>
+</ul>
+<p><strong>Technologies used:</strong> Scala, Kafka, Akka, Flink, Spark,
+AWS, Hive, Elastic Search, Cassandra, Grafana, Prometheus</p>
+<h3 id="data-engineer-xebia-functional">Data Engineer, Xebia
+Functional</h3>
+<p>October 2019 - October 2020, Remote, Spain</p>
+<h4 id="packlink">Packlink</h4>
+<p>As part of this project, the 47 Degrees team is helping Packlink to
+build a microservices architecture for integrating carriers and
+e-commerce platforms, for allowing customers to compare costs and ship
+parcels from everywhere to everywhere.</p>
+<p>Concretely, some of the tasks where I was involved:</p>
+<ul>
+<li>Developed microservices to integrate an e-commerce platform in the
+Packlink system.</li>
+<li>Designed data migration jobs, where some of the legacy services were
+replaced by the new ones.</li>
+<li>Helped with the new infrastructure setup, where the new
+microservices are deployed.</li>
+</ul>
+<p><strong>Technologies used:</strong> Scala, cats, cats-effect, Spring,
+RabbitMQ</p>
+<h4 id="dpdhl">DPDHL</h4>
+<p>We helped DPDHL to build the architecture that drives their business
+in terms of package delivery and supply chain management. Concretely, we
+were involved in designing and implementing scalable systems that can
+handle a massive amount of data in different formats and from diverse
+sources. The developed applications are influenced by functional
+programming patterns using <code>cats</code> and
+<code>cats-effect</code>.</p>
+<ul>
+<li>Designed spark jobs for transforming complex nested XML data
+structures into a flattened and columnar structure, in a generic way
+based on different XSD schemas.</li>
+<li>Integrated the new datalake with Jupyter so the Data Analysts team
+is able to access it easily.</li>
+<li>Designed an Airflow pipeline to collect stats from the jobs executed
+and send an email with the stats</li>
+<li>Participated in different sessions for mentoring the Data Analyst
+team.</li>
+</ul>
+<p><strong>Technologies used:</strong> Spark, MapR, Scala, Hue, Airflow,
+Cats, Cats-effect, fs2</p>
+<h3 id="data-engineer-accenture">Data Engineer, Accenture</h3>
+<p>April 2017 - October 2018, Madrid, Spain</p>
+<p>I worked on the banking sector, building the infrastructure behind a
+datalake. Some projects I’ve built are:</p>
+<ul>
+<li>A component that retrieves data asynchronously from an API and
+integrates the data with Spark, using Scala and Akka</li>
+<li>A component for data quality using Spark and Hive</li>
+<li>A component that compares DataFrames trying to predict if the data
+inside is the same, even though small differences can exist. This
+component then generates a report based on the results.</li>
+</ul>
+<p><strong>technologies used:</strong> Scala, Spark, Hive, AWS, Kafka,
+Cats, Monocle</p>
+<h3 id="full-stack-developer-internship-oxik-studio">Full Stack
+Developer, Internship, Oxik Studio</h3>
+<p>March 2016 - September 2016, Huelva, Spain</p>
+<p>I developed web pages using php and symphony for the backend and
+Angular JS for the frontend.Developed a Telegram chatbot as an interface
+for publicitary campains</p>
+<h2 id="publications">Publications</h2>
+<ul>
+<li><a
+href="https://xebia.com/blog/using-vulcan-codecs-with-kafka-java-apis/"><em>Using
+Vulcan codecs with Kafka</em></a></li>
+</ul>
+<h2 id="open-source">Open Source</h2>
+<ul>
+<li><p>I’m a happy user and contributor of <a
+href="https://github.com/scalameta/nvim-metals"><em>nvim-metals</em></a></p></li>
+<li><p>Contributed documentation fixes and improvements to <a
+href="https://github.com/circe/circe-fs2">circe-fs2</a></p></li>
+<li><p>Helped fixing flaky tests in <a
+href="https://github.com/higherkindness/droste">droste</a></p></li>
+<li><p>Neovim plugin Author :)</p></li>
+</ul>
+<h2 id="education">Education</h2>
+<h3 id="computer-science-university-of-huelva">Computer Science,
+University of Huelva</h3>
+<p>September 2012 - September 2019.</p>
+</body>
+</html>
