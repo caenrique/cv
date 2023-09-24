@@ -138,11 +138,8 @@ I developed web pages using php and symphony for the backend and Angular JS for 
 ## Open Source
 
 - I'm a happy user and contributor of [*nvim-metals*](https://github.com/scalameta/nvim-metals)
-
 - Contributed documentation fixes and improvements to [circe-fs2](https://github.com/circe/circe-fs2)
-
 - Helped fixing flaky tests in [droste](https://github.com/higherkindness/droste)
-
 - Neovim plugin Author :)
 
 ## Education
