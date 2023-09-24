@@ -7,7 +7,7 @@ html: clean
 	pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o resume.html
 
 site: clean
-	pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o index.html
+	pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o docs/index.html
 
 pdf_from_html: html
 	wkhtmltopdf --enable-local-file-access resume.html resume.pdf
