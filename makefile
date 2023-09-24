@@ -7,8 +7,7 @@ html: clean
 	pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o resume.html
 
 site: clean
-	cp resume-stylesheet.css ./docs
-	pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o docs/index.html
+	pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o index.html
 
 pdf_from_html: html
 	wkhtmltopdf --enable-local-file-access resume.html resume.pdf
@@ -18,4 +17,4 @@ install:
 	brew install wkhtmltopdf
 
 clean:
-	rm -f *.html *.pdf docs/* output/*
+	rm -f *.html *.pdf output/*
