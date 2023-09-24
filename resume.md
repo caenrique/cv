@@ -33,7 +33,7 @@ subject: 'CV'
 ```containers```
 ```project management```
 
-**Programming**: Scala, Typscript, Lua, Python, Java
+**Programming**: Scala, Typscript, Python, Lua, Java
 **Databases**: DynamoDb, Postgres, MySQL, Redis, Cassandra
 **Processing Engines**: Kafka, Spark, Flink, Fs2, Akka Streams
 **DevOps**: Github Actions, Kubernetes, AWS CDK, Docker
