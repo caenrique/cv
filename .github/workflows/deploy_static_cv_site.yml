@@ -32,9 +32,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Build site and pdf
-        run: make site
-
       - name: Setup output folder
         run: |
           mkdir output
@@ -47,6 +44,9 @@ jobs:
           wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
           sudo apt install ./pandoc-3.0.1-1-amd64.deb
           sudo apt install ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+
+      - name: Build site and pdf
+        run: make site
 
       - name: Build pdf
         run: |

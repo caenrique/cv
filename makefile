@@ -18,4 +18,4 @@ install:
 	brew install wkhtmltopdf
 
 clean:
-	rm -f *.html *.pdf docs/*
+	rm -f *.html *.pdf docs/* output/*
