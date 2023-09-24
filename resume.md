@@ -3,7 +3,7 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Cesar Enrique Ramirez CV
+title: Cesar Enrique Ramirez
 description-meta: 'CV of Cesar Enrique Ramirez'
 keywords:
   - 'Scala'
