@@ -50,9 +50,10 @@ jobs:
           make pdf_from_html
           cp resume.pdf output/resume.pdf
 
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@v4
         with:
           name: "${{ github.actor }}'s Resume"
+          overrite: true
           path: 'output'
 
       - name: Build site
