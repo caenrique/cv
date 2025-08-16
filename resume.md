@@ -42,6 +42,12 @@ subject: 'CV'
 ### Staff Software Engineer, Xebia Functional
 January 2025 - Now, Remote, Spain
 
+#### SiriusXm
+
+- Integrate personalisation models for music recommendation systems.
+- Implement an utility model recommendation framework
+- A/B experiment support to roll out new features
+
 ### Senior Software Engineer, Xebia Functional
 September 2022 - January 2025, Remote, Spain
 
