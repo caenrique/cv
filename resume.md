@@ -39,9 +39,11 @@ subject: 'CV'
 **DevOps**: Github Actions, Kubernetes, AWS CDK, Docker
 
 ## Experience
+### Staff Software Engineer, Xebia Functional
+January 2025 - Now, Remote, Spain
 
 ### Senior Software Engineer, Xebia Functional
-September 2022 - Now, Remote, Spain
+September 2022 - January 2025, Remote, Spain
 
 As part of Xebia functional I worked on multiple projects as a consultant for clients in a variety of sectors, always with the hightest standars regarding quality and functional programming best practices.
 
