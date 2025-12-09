@@ -44,6 +44,7 @@ January 2025 - Now, Remote, Spain
 
 #### SiriusXm
 
+- Rewrite an algorithmic sequencing engine from a legacy Java codebase into Scala.
 - Integrate personalisation models for music recommendation systems.
 - Implement an utility model recommendation framework
 - A/B experiment support to roll out new features
@@ -139,16 +140,17 @@ March 2016 - September 2016, Huelva, Spain
 
 I developed web pages using php and symphony for the backend and Angular JS for the frontend.Developed a Telegram chatbot as an interface for publicitary campains
 
-## Publications
+## Publications and Talks
 
-- [*Using Vulcan codecs with Kafka*](https://xebia.com/blog/using-vulcan-codecs-with-kafka-java-apis/)
+- [*Using Vulcan codecs with Kafka Java APIs*](https://xebia.com/blog/using-vulcan-codecs-with-kafka-java-apis/)
+- [*Domain modeling for event sourced data* (Scala Days 2025)](https://www.youtube.com/watch?v=lO_CoL90-cw)
 
 ## Open Source
 
 - I'm a happy user and contributor of [*nvim-metals*](https://github.com/scalameta/nvim-metals)
 - Contributed documentation fixes and improvements to [circe-fs2](https://github.com/circe/circe-fs2)
 - Helped fixing flaky tests in [droste](https://github.com/higherkindness/droste)
-- Neovim plugin Author :)
+- Neovim user and plugin Author :)
 
 ## Education
 
